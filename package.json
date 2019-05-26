@@ -1,0 +1,17 @@
+{
+  "name": "ts-converter",
+  "version": "1.0.0",
+  "description": "Universal converter for objects and collections based on TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TypeScript",
+    "Converter",
+    "Objects",
+    "Collections"
+  ],
+  "author": "Dmitriy Meshcherin",
+  "license": "MIT"
+}
