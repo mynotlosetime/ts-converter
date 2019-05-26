@@ -1,4 +1,4 @@
-import { ConverterInterface } from './models/converter.interface';
+import { ConverterInterface } from '../models/converter.interface';
 import { Converter } from './converter';
 import { isArray } from 'lodash';
 import {
@@ -6,7 +6,7 @@ import {
     FIRST,
     NO_ARRAY_INPUT_ERROR,
     NO_CONVERTER_BY_KEY_ERROR,
-} from './constants/converter.constants';
+} from '../constants/converter.constants';
 
 export class MultiConverter<T, E> implements ConverterInterface<T, E> {
     public static getInstance<T, E>(

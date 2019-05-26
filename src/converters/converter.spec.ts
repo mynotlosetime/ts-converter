@@ -1,14 +1,14 @@
 import {
     testCompanyModelConverter,
     testUserModelConverter,
-} from './stub/test.converter';
-import { CompanyTestModel, UserTestModel } from './stub/test.model';
+} from '../stub/test.converter';
+import { CompanyTestModel, UserTestModel } from '../stub/test.model';
 import {
     testUser,
     USER_FIRST_NAME,
     USER_LAST_NAME,
-} from './stub/mock/test.user.mock';
-import { testCompany } from './stub/mock/test.company.mock';
+} from '../stub/mock/test.user.mock';
+import { testCompany } from '../stub/mock/test.company.mock';
 
 describe('Converter', () => {
     describe('Check converting of single objects', () => {

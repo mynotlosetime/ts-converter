@@ -1,19 +1,19 @@
-import { testMultiConverter } from './stub/test-multi.converter';
-import { testMultiUsersArray } from './stub/mock/test.user.mock';
-import { TestMultiUserTypesEnum } from './stub/mock/test-multi-types.enum';
+import { testMultiConverter } from '../stub/test-multi.converter';
+import { testMultiUsersArray } from '../stub/mock/test.user.mock';
+import { TestMultiUserTypesEnum } from '../stub/mock/test-multi-types.enum';
 import {
     MultiTestDto,
     MultiUserBossDtoInterface,
     MultiUserManagerInterface,
     MultiUserPrimaryInterface,
-} from './stub/test.dto';
+} from '../stub/test.dto';
 import {
     BaseMultiModel,
     MultiTestModel,
     MultiUserBossModel,
     MultiUserManagerModel,
     MultiUserPrimaryModel,
-} from './stub/test.model';
+} from '../stub/test.model';
 
 describe('Multi-Converter', () => {
     it('Base convert', () => {

@@ -3,8 +3,8 @@ import {
     timelineEntryCreateEventModelConverter,
     timelineMeetingEntryAuditEventConverter,
 } from '../../../services/company/converters/timeline-entries.converter';
-import { Converter } from '../converter';
-import { MultiConverter } from '../multi-converter';
+import { Converter } from '../converters/converter';
+import { MultiConverter } from '../converters/multi-converter';
 import { TestMultiUserTypesEnum } from './mock/test-multi-types.enum';
 import { MultiTestDto, MultiUserBossDtoInterface, MultiUserManagerInterface, MultiUserPrimaryInterface } from './test.dto';
 import { MultiTestModel, MultiUserBossModel, MultiUserManagerModel, MultiUserPrimaryModel } from './test.model';

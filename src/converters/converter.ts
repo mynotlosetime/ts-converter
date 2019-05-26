@@ -1,10 +1,10 @@
-import { SchemeInterface } from './models/scheme.interface';
+import { SchemeInterface } from '../models/scheme.interface';
 import { clone, forEach, isArray } from 'lodash';
-import { ConverterInterface } from './models/converter.interface';
-import { PartFieldsType } from './models/part-fields.type';
-import { ConvertMetadataType } from './models/convert-metadata.interface';
-import { FieldType } from './models/field-type.type';
-import { ConverterHelper } from './helpers/converter.helper';
+import { ConverterInterface } from '../models/converter.interface';
+import { PartFieldsType } from '../models/part-fields.type';
+import { ConvertMetadataType } from '../models/convert-metadata.interface';
+import { FieldType } from '../models/field-type.type';
+import { ConverterHelper } from '../helpers/converter.helper';
 
 export class Converter<I extends {}, O extends {}>
     implements ConverterInterface<I, O> {

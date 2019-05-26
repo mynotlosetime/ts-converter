@@ -1,4 +1,4 @@
-import { Converter } from '../converter';
+import { Converter } from '../converters/converter';
 import {
     CompanyTestDtoInterface,
     MultiUserBossDtoInterface,
