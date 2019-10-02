@@ -61,7 +61,9 @@ export class Converter<I extends {}, O extends {}>
 
     private resolveFields(inputObject: I): O {
         const metaObject = Object.assign<Partial<O>, I>({}, inputObject);
-        forEach(metaObject, <K>(value: K, key: string): void => {
+        forEach<{}>(metaObject, <K>(value: K, key: string): void => {
+
+
             const fieldScheme: FieldType<I, O, K> | FieldType<I, O, K>[] = this
                 .fields[key];
 

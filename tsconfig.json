@@ -1,17 +1,18 @@
 {
   "compilerOptions": {
-    "module": "system",
-    "noImplicitAny": true,
+    "baseUrl": "./src",
+    "lib": ["es2015", "es2017", "dom"],
+    "module": "ESNext",
     "removeComments": true,
     "preserveConstEnums": true,
-    "outFile": "/build/index.js",
-    "sourceMap": true
+    "outDir": "./dist",
+    "declaration": true,
+    "declarationMap": true
   },
   "include": [
     "src/**/*"
   ],
   "exclude": [
-    "node_modules",
     "**/*.spec.ts"
   ]
 }

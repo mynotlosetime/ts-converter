@@ -1,0 +1,1 @@
+{"version":3,"file":"converter.interface.d.ts","sourceRoot":"","sources":["../../src/models/converter.interface.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,kBAAkB,CAAC,CAAC,SAAS,EAAE,EAAE,CAAC,SAAS,EAAE;IAC1D,UAAU,CAAC,KAAK,EAAE,CAAC,EAAE,YAAY,CAAC,EAAE,OAAO,GAAG,CAAC,CAAC;IAChD,YAAY,CAAC,KAAK,EAAE,CAAC,EAAE,EAAE,YAAY,CAAC,EAAE,OAAO,GAAG,CAAC,EAAE,CAAC;CACzD"}

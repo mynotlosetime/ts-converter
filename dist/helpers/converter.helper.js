@@ -1,6 +1,4 @@
-"use strict";
-exports.__esModule = true;
-var ConverterHelper = /** @class */ (function () {
+var ConverterHelper = (function () {
     function ConverterHelper() {
     }
     ConverterHelper.isSimpleConverter = function (field) {
@@ -16,4 +14,4 @@ var ConverterHelper = /** @class */ (function () {
     };
     return ConverterHelper;
 }());
-exports.ConverterHelper = ConverterHelper;
+export { ConverterHelper };

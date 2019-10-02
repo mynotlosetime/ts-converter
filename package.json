@@ -2,9 +2,10 @@
   "name": "ts-converter",
   "version": "1.0.0",
   "description": "Universal converter for objects and collections based on TypeScript",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "tsc -w",
+    "test": "jest"
   },
   "keywords": [
     "TypeScript",
@@ -14,11 +15,12 @@
   ],
   "author": "Dmitriy Meshcherin",
   "license": "MIT",
-  "dependencies": {
-    "lodash": "^4.17.11"
+  "peer-dependencies": {
+    "lodash": "4.17.15^"
   },
   "devDependencies": {
-    "jasmine": "^3.4.0",
-    "tsc": "^1.20150623.0"
+    "@types/lodash": "4.14.141",
+    "jasmine": "3.4.0",
+    "typescript": "3.6.3"
   }
 }

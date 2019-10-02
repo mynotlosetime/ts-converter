@@ -1,8 +1,3 @@
-import { TimelineMeetingEntryType } from '../../../models/timeline/timeline-meeting-entry.type';
-import {
-    timelineEntryCreateEventModelConverter,
-    timelineMeetingEntryAuditEventConverter,
-} from '../../../services/company/converters/timeline-entries.converter';
 import { Converter } from '../converters/converter';
 import { MultiConverter } from '../converters/multi-converter';
 import { TestMultiUserTypesEnum } from './mock/test-multi-types.enum';
