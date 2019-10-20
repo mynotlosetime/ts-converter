@@ -1,7 +1,7 @@
 {
   "name": "ts-converter",
   "version": "1.0.0",
-  "description": "Universal converter for objects and collections based on TypeScript",
+  "description": "Universal converter for objects and collections based on TypeScript. Use type control for clearing convertation process.",
   "scripts": {
     "build": "tsc",
     "start": "tsc -w",
@@ -19,8 +19,11 @@
     "lodash": "4.17.15^"
   },
   "devDependencies": {
+    "@types/jest": "^24.0.19",
     "@types/lodash": "4.14.141",
     "jasmine": "3.4.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
     "typescript": "3.6.3"
   }
 }
